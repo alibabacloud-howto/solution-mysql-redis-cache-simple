@@ -77,7 +77,7 @@ You can also use mysql_client.sh to query the data in RDS MySQL. There should be
 
 ![image.png](https://github.com/alibabacloud-howto/solution-mysql-redis-cache-simple/raw/master/images/step2_7.png)
 
-Run the Redis demo application to verify the cache and TTL logic. You can pick up a query from the file query.sql to run. The default TTL is set as 10 seconds in the demo application. It will tell you that the result is fetched from MySQL or Redis cache. Do remember that the life time of query result in Redis cache is only 10 seconds. If you want to make it longer, you can modify the code [https://github.com/alibabacloud-howto/solution-mysql-redis-cache-simple/blob/main/source/src/main/java/demo/RedisCache.java](https://github.com/alibabacloud-howto/solution-mysql-redis-cache-simple/blob/main/source/src/main/java/demo/RedisCache.java) and build to run again.
+Run the Redis demo application to verify the cache and TTL logic. You can pick up a query from the file query.sql to run. The default TTL is set as 10 seconds in the demo application. It will tell you that the result is fetched from MySQL or Redis cache. Do remember that the life time of query result in Redis cache is only 10 seconds. If you want to make it longer, you can modify the code [https://github.com/alibabacloud-howto/solution-mysql-redis-cache-simple/blob/master/source/src/main/java/demo/RedisCache.java](https://github.com/alibabacloud-howto/solution-mysql-redis-cache-simple/blob/master/source/src/main/java/demo/RedisCache.java) and build to run again.
 
 ```bash
 sh run_sample_app.sh
