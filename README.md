@@ -1,3 +1,12 @@
+# Scoreboard of Rose Bowl Games powdered by Redis & MySQL - Use Terraform To Provision All Resources
+
+You can access the tutorial artifact including deployment script (Terraform), related source code, sample data and instruction guidance from the github project:
+[https://github.com/alibabacloud-howto/solution-mysql-redis-cache-simple](https://github.com/alibabacloud-howto/solution-mysql-redis-cache-simple)
+
+More tutorial around Alibaba Cloud Database, please refer to:
+[https://github.com/alibabacloud-howto/database](https://github.com/alibabacloud-howto/database)
+
+
 ### Project URL
 [https://github.com/alibabacloud-howto/solution-mysql-redis-cache-simple](https://github.com/alibabacloud-howto/solution-mysql-redis-cache-simple)
 
